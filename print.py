@@ -1,6 +1,6 @@
-# print(12)
-# print(13,end="")
-# print(34)
+print(12)
+print(13,end=" ")
+print(34)
 
 # for i in range(1,6):
 #     print(i, "-", i*i)
@@ -58,15 +58,26 @@
 #       print(i)
 #    print()     
 
-#pallindrome using function
-def is_pallindrome(n):
-  original = n 
-  rev = 0
+# #pallindrome using function
+# def is_pallindrome(n):
+#   original = n 
+#   rev = 0
+#   while n > 0:
+#     digit = n %10
+#     rev = rev *10 +digit
+#     n //= 10
 
-  while n > 0:
-    digit = n %10
-    rev = rev *10 +digit
-    n //= 10
+#     return rev == original  # here if reverse is equals to original then ,return true otherwise false
+# print(is_pallindrome(5))    
 
-    return rev == original  # here if reverse is equals to original then ,return true otherwise false
-print(is_pallindrome(5))    
+
+
+#convert decimal to binary 
+# def dec_bin(num):
+#   bin = " "
+#   while num > 0:
+#     digit = num % 2 
+#     bin=  str(digit) +bin  
+#     num = num // 2
+#   print(bin)
+# dec_bin(6)    
